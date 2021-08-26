@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h2>Cat Photo App</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!--TODO:- Add link to vat photo-->
+            <p>Click here to view more <a href="https://youtube.com" target="_blank"> cat photos 
+            </a>.</p>
+            <a href="https://youtube.com" target="_blank"><img src="Eminem.jpg" alt="Eminem"></a>
+            <h3>Cat Lists</h3>
+            <p>Things cats <em>love</em></p>
+            <div class="lists">
+                <ul>
+                    <li>Cat nap</li>
+                    <li>Laser beam</li>
+                    <li>lasagna</li>
+                </ul>
+                <p>Things cats <strong>hate</strong></p>
+                <ol>
+                    <li>Dogs</li>
+                    <li>Thunder</li>
+                    <li>Other cats</li>
+                </ol>
+            </div>
+            <form action="/submi-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+                <input type="text" placeholder="Cat photo URL" required>
+                <button type="submit">Submit</button><br>
+                <label for="loving"><input id="loving" name="personality" type="checkbox" checked>Loving</label><br>
+                <label for="lazy"><input id="lazy" name="personality" type="checkbox">Lazy</label><br>
+                <label for="energetic"><input id="energetic" name="personality" type="checkbox">Energetic</label><br>
+            </form>
+        </main>
+        <footer>
+            <p><small> Copyright - <a href="https://freeCodeCamp.org">freeCodeCamp</small></a></p>
+        </footer>
+    </body>
+</html>
